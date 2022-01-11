@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(to right, rgb(255, 0, 0) 0%, rgb(0, 0, 255) 100%);
+    background-size: auto;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 1em;
+    font-family: 'Roboto Mono', monospace;
+}
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: scale(0.1) rotate(360deg) translate(100vw, 100vh);
+    animation: linear 2.5s titles-crazy forwards;
+  }
+  @keyframes titles-crazy{
+      0% {
+
+      }
+      100% {
+        transform: scale(1) rotate(0) translate(0);
+      }
+  }
+.titles h1{
+    font-size: 2em;
+}
+.titles h2{
+    font-size: 1.5em;
+}
+.ponto-block{
+    display: block;
+}
+.ponto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hino{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li{
+    list-style: none;
+}
+
+/*Orixas*/
+
+.iemanja{
+  background: linear-gradient(to right, rgb(106, 90, 205) 0%, rgb(0, 0, 139) 100%);
+}
+.oxossi{
+  background: linear-gradient(to right, rgb(50, 205, 50) 0%, rgb(0, 100, 0) 100%);
+}
+.oxum{
+  background: linear-gradient(to right, rgba(255, 255, 0, 0.75) 0%, rgba(255, 215, 0, 0.75) 100%);
+}
+.iansa{
+  background: linear-gradient(to right, rgb(178, 34, 34) 0%, rgba(255, 0, 0, 0.9) 100%);
+}
+.xango{
+  background: linear-gradient(to right, rgb(102, 0, 0) 0%, rgba(153, 76, 0, 0.9) 100%);
+}
+.ogum{
+  background: linear-gradient(to right, rgb(0, 0, 255) 0%, rgba(0, 0, 153, 0.9) 100%);
+}
+.oxala{
+  background-color: Silver;
+}
+.nana{
+  background: linear-gradient(to right, rgb(76, 0, 153) 0%, rgba(102, 0, 204, 0.9) 100%);
+}
+.obaluae{
+    background: linear-gradient(to right, rgb(96, 96, 96) 0%, rgba(160, 160, 160, 0.9) 100%);
+}
+
+
+.bahiano{
+  background: linear-gradient(to right, rgb(205, 133, 63) 0%, rgba(210, 105, 30, 0.9) 100%);
+}
